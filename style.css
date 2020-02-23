@@ -1,0 +1,91 @@
+body{
+    font: 16px/32px arial sans-serif;
+    font-style: italic;
+    background-image: url(Img/annie-spratt--KKLWDAgj2Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: darkblue ; 
+}
+
+.container{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    background-image: url(Img/javier-penas-3Zy3pR28IKc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    padding: 1px;    
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.header sub{
+    font-size: 20px;
+    color: deeppink;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.header a{
+    text-decoration: none;
+    color: maroon;
+    padding: 4px;
+}
+
+.header a:hover{
+    background-color: navy;
+    color: whitesmoke;
+}
+
+.content{
+    background-image: url(Img/Header-19.png);
+    background-size: cover;
+    height: 50px;
+    margin: center;
+} 
+
+.tabel td{
+    background-image: url(Img/simon-matzinger-twukN12EN7c-unsplash.jpg);
+    background-size: cover;
+    font-weight: bold;
+    width: 155px;
+    font-size: 14px;
+}
+
+.tabel a{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.tabel a:hover{
+    background-color: navy;
+    color: whitesmoke;
+}
+
+.button{
+    background-color: darksalmon;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

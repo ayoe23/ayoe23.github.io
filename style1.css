@@ -1,0 +1,73 @@
+body{
+    font: 16px/32px arial sans-serif;
+    font-style: italic;
+    background-image: url(Img/annie-spratt--KKLWDAgj2Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: darkblue ;
+}
+
+.container{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    background-image: url(Img/javier-penas-3Zy3pR28IKc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    padding: 1px;    
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;    
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.header a{
+    text-decoration: none;
+    color: maroon;
+    padding: 4px;
+}
+
+.header a:hover{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.content h2{
+    color: maroon;
+}
+
+.kiri{
+    width: 500px;
+    height: 530px;
+    background-image: url(Img/sebastian-scholz-nuki-Fh3Dtg6QX4Q-unsplash.jpg);
+    background-size: cover;
+    background-position: initial;
+    color: navy;
+    float: left;
+}
+
+.kiri li{
+    color: maroon;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.kanan{
+    width: 500px;
+    height: 530px;
+    background-color: lightgrey;
+    float: left;
+    font-size: 14px;
+}
